@@ -1,0 +1,20 @@
+{
+  "name": "mycontact_backend_api",
+  "version": "1.0.0",
+  "description": "This is the express project for managing my contact backend api",
+  "license": "ISC",
+  "author": "Ishwar Singh",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^8.23.0"
+  }
+}
