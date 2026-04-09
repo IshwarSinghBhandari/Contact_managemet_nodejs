@@ -6,4 +6,4 @@ const constants = {
     FORBIDDEN:403,
 };
 
-exports.module= constants;
+module.exports = constants;
